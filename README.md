@@ -6,9 +6,9 @@ Renames all photos in directory and sub-directories to "YYYYMMDD_#" where # is t
 # dependancies
 1: exifread module
 This tool uses the exifread python module in order to read image exif data. Use pip to install,
-
+```
 pip install exifread
-
+```
 2: folder structure
 The folder structure must comprise of years, months, and then photos. There must be no other text in the year and month naming schemes. For example, the folder structure can be "C:\photos\2005\10\photo.jpg" but not "C:\photos\2005\10 Vacation\photo.jpg".
 
