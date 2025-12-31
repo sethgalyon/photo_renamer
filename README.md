@@ -8,7 +8,7 @@ Renames all photos in directory and sub-directories to "YYYYMMDD_#" where # is t
 
 This tool uses the exifread python module in order to read image exif data. Use pip to install,
 ```
-pip install exifread
+py -m pip install exifread
 ```
 2: Folder structure
 
